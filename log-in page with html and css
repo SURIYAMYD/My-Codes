@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background: linear-Gradient(#042326,#1D7373);
+            height: 700px;
+            
+        }
+        .new{
+            border: 0cap;
+            width:auto;
+            height:100px;
+            background: linear-Gradient(#042326,#1D7373);
+            display:flex;
+            border: #3F7C85 solid 2px;
+            
+            
+        }
+        .main {
+            display: flex;
+            
+           margin-top: 30px;
+            
+        }
+        a{
+            
+            color: antiquewhite;
+            margin-right:100px ;
+            margin-left: 100px;
+            
+           
+        }
+        button{
+            width: 100px;
+            height: 25px;
+            background-color:rosybrown;
+            margin: 25px 0px 0px 300px;
+            border: none;
+            border-radius: 15px;
+            color: antiquewhite;
+            font-family: 'Times New Roman';
+
+
+        }
+        button:active{
+            background-color: blueviolet;
+        }
+        h1{
+            margin-left: 10px;
+        }
+        .new2{
+            width: 400px;
+            height: 400px;
+            background-color: white;
+            margin: 10px 10px 10px 450px;
+            border-radius: 50px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+            
+        
+           .new2 >h1{
+            text-align: center;
+            color:black;
+            margin-top: 50px;
+            font-weight: 200;
+            }
+        
+            .new3{
+               margin-left: 100px;
+               margin-top: 100px;
+               font-weight: 100;
+            }
+            #button{
+                margin-top: 150px;
+                margin-left: 30px;
+            }
+            h1{
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+    </style>
+</head>
+<body>
+    <div class="new">
+        <h1>log-in page</h1>
+        <div class="main">
+            <a>HOME</a>
+            <a>BACK</a>
+            <a>CHANGE</a>
+        </div>
+        <button>SUBMIT</button>
+    </div>
+    <div class="new2">
+        <h1>LOG-IN</h1>
+        <div class="new3">
+        <label for="user-name">NAME:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="name" id="user-name"><br><br>
+        <label style="font-weight: 100;">PASSWORD:</label>
+        <input type="password">
+        <button id="button">cancel</button>
+        <button id="button">submit</button>
+        </div>
+
+    </div>
+</body>
+</html>
